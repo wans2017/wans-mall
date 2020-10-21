@@ -34,38 +34,38 @@ public class R<T> {
     }
 
     public static<T> R<T> ok(String msg){
-        R<T> resp = new R<T>();
-        resp.setCode(200);//操作成功
-        resp.setMsg(msg);
-        return resp;
+        R<T> r = new R<T>();
+        r.setCode(200);//操作成功
+        r.setMsg(msg);
+        return r;
     }
 
     public static<T> R<T> ok(Integer code,String msg){
-        R<T> resp = new R<T>();
-        resp.setCode(code);//操作成功
-        resp.setMsg(msg);
-        return resp;
+        R<T> r = new R<T>();
+        r.setCode(code);//操作成功
+        r.setMsg(msg);
+        return r;
     }
 
     public static<T> R<T> fail(){
-        R<T> resp = new R<T>();
-        resp.setCode(500);//操作失败
-        resp.setMsg("操作失败");
-        return resp;
+        R<T> r = new R<T>();
+        r.setCode(500);//操作失败
+        r.setMsg("操作失败");
+        return r;
     }
 
     public static<T> R<T> fail(String msg){
-        R<T> resp = new R<T>();
-        resp.setCode(500);//操作失败
-        resp.setMsg(msg);
-        return resp;
+        R<T> r = new R<T>();
+        r.setCode(500);//操作失败
+        r.setMsg(msg);
+        return r;
     }
 
     public static<T> R<T> fail(Integer code, String msg){
-        R<T> resp = new R<T>();
-        resp.setCode(code);//操作失败
-        resp.setMsg(msg);
-        return resp;
+        R<T> r = new R<T>();
+        r.setCode(code);//操作失败
+        r.setMsg(msg);
+        return r;
     }
 
     public R<T> put(T data) {

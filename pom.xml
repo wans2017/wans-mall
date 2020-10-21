@@ -18,25 +18,44 @@
     <!-- 在父项目定义一个参数，子项目可以引用，改一次即可 -->
     <properties>
         <wans.mall.version>1.0-SNAPSHOT</wans.mall.version>             <!-- 此项目版本号 -->
+        <spring-boot.version>2.3.4.RELEASE</spring-boot.version>        <!-- spring boot版本 -->
         <spring-platform.version>Cairo-SR7</spring-platform.version>    <!-- 依赖维护平台 -->
         <spring-cloud.version>Hoxton.SR8</spring-cloud.version>         <!-- spring cloud版本 -->
+        <spring-cloud-alibaba.version>2.2.3.RELEASE</spring-cloud-alibaba.version><!-- spring cloud alibaba版本 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><!-- 编码 -->
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!-- spring boot 依赖 -->
             <dependency>
-                <groupId>io.spring.platform</groupId>
-                <artifactId>platform-bom</artifactId>
-                <version>${spring-platform.version}</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
+            <!-- Spring IO Platform 平台依赖 -->
+            <!--<dependency>-->
+                <!--<groupId>io.spring.platform</groupId>-->
+                <!--<artifactId>platform-bom</artifactId>-->
+                <!--<version>${spring-platform.version}</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
+            <!-- spring cloud 依赖 -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- spring cloud alibaba 依赖 -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

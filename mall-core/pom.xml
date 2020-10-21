@@ -15,13 +15,13 @@
     别人依赖核心包一定要将他放在最前面，可能与项目的其他jar版本冲突，按照先声明者优先就会用到我们核心包里面的jar，比如swagger引的guava-->
     <properties>
         <mybatisplus.version>3.0.7.1</mybatisplus.version>
-        <nacos.version>0.2.2.RELEASE</nacos.version>
-        <mybatisplus.version>3.0.7.1</mybatisplus.version>
-        <mysql.version>5.1.46</mysql.version>
-        <swagger.version>2.9.2</swagger.version>
+        <nacos.version>0.2.2.RELEASE</nacos.version>        <!--nacos版本-->
+        <mysql.version>5.1.46</mysql.version>               <!--mysql版本-->
+        <swagger.version>2.9.2</swagger.version>            <!--swagger版本-->
     </properties>
 
     <dependencies>
+        <!-- nacos支持 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
@@ -32,22 +32,24 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
             <version>${nacos.version}</version>
         </dependency>
+        <!-- mybatis-plus -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>${mybatisplus.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatisplus.version}</version>
-            <exclusions>
+            <exclusions>    <!--排除mybatis-plus逆向生成-->
                 <exclusion>
                     <groupId>com.baomidou</groupId>
                     <artifactId>mybatis-plus-generator</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus</artifactId>
-            <version>${mybatisplus.version}</version>
-        </dependency>
+        <!-- mysql -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -65,7 +67,7 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>${swagger.version}</version>
         </dependency>
-        <!--lombok-->
+        <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

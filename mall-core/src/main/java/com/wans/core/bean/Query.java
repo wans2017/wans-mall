@@ -53,7 +53,6 @@ public class Query<T> {
         }else {
             page.setDesc(defaultOrderField);
         }
-
         return page;
     }
 

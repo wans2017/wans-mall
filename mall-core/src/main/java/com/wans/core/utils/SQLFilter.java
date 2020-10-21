@@ -4,7 +4,7 @@ import com.wans.core.exception.WansException;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * SQL过滤
+ * SQL过滤 防止sql注入
  * Created by wans on 2020/10/16.
  */
 public class SQLFilter {
