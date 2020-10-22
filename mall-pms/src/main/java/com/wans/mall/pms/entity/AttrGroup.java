@@ -10,9 +10,8 @@ import lombok.Data;
 
 /**
  * 属性分组
- * 
- * @author wans
- * @date 2020-10-22 16:08:26
+ *
+ * Created by wans on 2020-10-22 17:00:14.
  */
 @Data
 @TableName("pms_attr_group")

@@ -1,26 +1,20 @@
 package com.wans.mall.pms.controller;
-
 import java.util.Arrays;
 import java.util.Map;
-
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-
 import com.wans.mall.pms.entity.AttrGroup;
 import com.wans.mall.pms.service.AttrGroupService;
 import com.wans.common.utils.PageVo;
 import com.wans.common.utils.QueryCondition;
 import com.wans.common.utils.Resp;
 
-
 /**
  * 属性分组
  *
- * @author wans
- * @email 
- * @date 2020-10-22 16:08:26
+ * Created by wans on 2020-10-22 17:00:14.
  */
 @RestController
 @RequestMapping("pms/attrgroup")

@@ -10,8 +10,7 @@ import java.util.Map;
 /**
  * 商品评价回复关系
  *
- * @author wans
- * @date 2020-10-22 16:08:26
+ * Created by wans on 2020-10-22 17:00:14.
  */
 public interface CommentReplayService extends IService<CommentReplay> {
 

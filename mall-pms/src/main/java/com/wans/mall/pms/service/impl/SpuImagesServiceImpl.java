@@ -13,7 +13,11 @@ import com.wans.mall.pms.dao.SpuImagesDao;
 import com.wans.mall.pms.entity.SpuImages;
 import com.wans.mall.pms.service.SpuImagesService;
 
-
+/**
+ * spu图片
+ *
+ * Created by wans on 2020-10-22 17:00:14.
+ */
 @Service("spuImagesService")
 public class SpuImagesServiceImpl extends ServiceImpl<SpuImagesDao, SpuImages> implements SpuImagesService {
 

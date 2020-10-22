@@ -10,9 +10,8 @@ import lombok.Data;
 
 /**
  * sku销售属性&值
- * 
- * @author wans
- * @date 2020-10-22 16:08:26
+ *
+ * Created by wans on 2020-10-22 17:00:14.
  */
 @Data
 @TableName("pms_sku_sale_attr_value")

@@ -2,17 +2,15 @@ package com.wans.mall.pms.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import java.io.Serializable;
-import java.util.Date;
 import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * 属性&属性分组关联
- * 
- * @author wans
- * @date 2020-10-22 16:08:26
+ *
+ * Created by wans on 2020-10-22 17:00:14.
  */
 @Data
 @TableName("pms_attr_attrgroup_relation")

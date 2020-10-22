@@ -10,8 +10,7 @@ import java.util.Map;
 /**
  * 属性&属性分组关联
  *
- * @author wans
- * @date 2020-10-22 16:08:26
+ * Created by wans on 2020-10-22 17:00:14.
  */
 public interface AttrAttrgroupRelationService extends IService<AttrAttrgroupRelation> {
 

@@ -13,7 +13,11 @@ import com.wans.mall.pms.dao.AttrAttrgroupRelationDao;
 import com.wans.mall.pms.entity.AttrAttrgroupRelation;
 import com.wans.mall.pms.service.AttrAttrgroupRelationService;
 
-
+/**
+ * 属性&属性分组关联
+ *
+ * Created by wans on 2020-10-22 17:00:14.
+ */
 @Service("attrAttrgroupRelationService")
 public class AttrAttrgroupRelationServiceImpl extends ServiceImpl<AttrAttrgroupRelationDao, AttrAttrgroupRelation> implements AttrAttrgroupRelationService {
 

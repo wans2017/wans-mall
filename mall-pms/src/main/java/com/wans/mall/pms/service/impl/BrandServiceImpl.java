@@ -13,7 +13,11 @@ import com.wans.mall.pms.dao.BrandDao;
 import com.wans.mall.pms.entity.Brand;
 import com.wans.mall.pms.service.BrandService;
 
-
+/**
+ * 品牌
+ *
+ * Created by wans on 2020-10-22 17:00:14.
+ */
 @Service("brandService")
 public class BrandServiceImpl extends ServiceImpl<BrandDao, Brand> implements BrandService {
 

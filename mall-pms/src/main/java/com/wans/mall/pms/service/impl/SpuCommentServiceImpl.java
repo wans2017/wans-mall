@@ -13,7 +13,11 @@ import com.wans.mall.pms.dao.SpuCommentDao;
 import com.wans.mall.pms.entity.SpuComment;
 import com.wans.mall.pms.service.SpuCommentService;
 
-
+/**
+ * 商品评价
+ *
+ * Created by wans on 2020-10-22 17:00:14.
+ */
 @Service("spuCommentService")
 public class SpuCommentServiceImpl extends ServiceImpl<SpuCommentDao, SpuComment> implements SpuCommentService {
 

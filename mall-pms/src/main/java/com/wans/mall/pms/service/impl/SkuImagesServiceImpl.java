@@ -13,7 +13,11 @@ import com.wans.mall.pms.dao.SkuImagesDao;
 import com.wans.mall.pms.entity.SkuImages;
 import com.wans.mall.pms.service.SkuImagesService;
 
-
+/**
+ * sku图片
+ *
+ * Created by wans on 2020-10-22 17:00:14.
+ */
 @Service("skuImagesService")
 public class SkuImagesServiceImpl extends ServiceImpl<SkuImagesDao, SkuImages> implements SkuImagesService {
 

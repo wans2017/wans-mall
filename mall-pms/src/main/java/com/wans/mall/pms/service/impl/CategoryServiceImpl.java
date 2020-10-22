@@ -13,7 +13,11 @@ import com.wans.mall.pms.dao.CategoryDao;
 import com.wans.mall.pms.entity.Category;
 import com.wans.mall.pms.service.CategoryService;
 
-
+/**
+ * 商品三级分类
+ *
+ * Created by wans on 2020-10-22 17:00:14.
+ */
 @Service("categoryService")
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> implements CategoryService {
 

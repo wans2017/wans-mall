@@ -41,10 +41,9 @@ public class Resp<T> {
     }
 
     public static<T> Resp<T> ok(T data){
-        Resp<T> resp = new Resp<T>();
+        Resp<T> resp = new Resp<T>(data);
         resp.setCode(200);//操作成功
         resp.setMsg("操作成功");
-        resp.setData(data);
         return resp;
     }
 

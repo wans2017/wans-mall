@@ -13,7 +13,11 @@ import com.wans.mall.pms.dao.AttrDao;
 import com.wans.mall.pms.entity.Attr;
 import com.wans.mall.pms.service.AttrService;
 
-
+/**
+ * 商品属性
+ *
+ * Created by wans on 2020-10-22 17:00:14.
+ */
 @Service("attrService")
 public class AttrServiceImpl extends ServiceImpl<AttrDao, Attr> implements AttrService {
 
