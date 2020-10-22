@@ -13,6 +13,12 @@
     <modules>
         <module>mall-admin</module>
         <module>mall-core</module>
+        <module>mall-pms</module>
+        <module>mall-ums</module>
+        <module>mall-oms</module>
+        <module>mall-sms</module>
+        <module>mall-wms</module>
+        <module>mall-comm-generator</module>
     </modules>
 
     <!-- 在父项目定义一个参数，子项目可以引用，改一次即可 -->

@@ -24,12 +24,24 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="mall-admin" />
+        <module name="mall-comm-generator" />
         <module name="mall-core" />
+        <module name="mall-oms" />
+        <module name="mall-pms" />
+        <module name="mall-sms" />
+        <module name="mall-ums" />
+        <module name="mall-wms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mall-admin" target="1.8" />
+      <module name="mall-comm-generator" target="1.8" />
       <module name="mall-core" target="1.8" />
+      <module name="mall-oms" target="1.8" />
+      <module name="mall-pms" target="1.8" />
+      <module name="mall-sms" target="1.8" />
+      <module name="mall-ums" target="1.8" />
+      <module name="mall-wms" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
