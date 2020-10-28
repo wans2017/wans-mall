@@ -16,7 +16,7 @@ import com.wans.mall.pms.service.SpuImagesService;
 /**
  * spu图片
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 @Service("spuImagesService")
 public class SpuImagesServiceImpl extends ServiceImpl<SpuImagesDao, SpuImages> implements SpuImagesService {

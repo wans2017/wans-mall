@@ -16,7 +16,7 @@ import com.wans.mall.pms.service.CategoryService;
 /**
  * 商品三级分类
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 @Service("categoryService")
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> implements CategoryService {

@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 属性&属性分组关联
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 @Mapper
 public interface AttrAttrgroupRelationDao extends BaseMapper<AttrAttrgroupRelation> {

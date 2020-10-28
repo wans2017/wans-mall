@@ -1,6 +1,7 @@
 package com.wans.mall.pms.controller;
 import java.util.Arrays;
 import java.util.Map;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -14,8 +15,9 @@ import com.wans.common.utils.Resp;
 /**
  * sku销售属性&值
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
+@Api(tags = "sku销售属性&值 管理")
 @RestController
 @RequestMapping("pms/skusaleattrvalue")
 public class SkuSaleAttrValueController {

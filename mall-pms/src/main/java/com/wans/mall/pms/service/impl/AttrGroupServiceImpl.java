@@ -16,7 +16,7 @@ import com.wans.mall.pms.service.AttrGroupService;
 /**
  * 属性分组
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 @Service("attrGroupService")
 public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroup> implements AttrGroupService {

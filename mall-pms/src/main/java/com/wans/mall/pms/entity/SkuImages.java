@@ -11,8 +11,9 @@ import lombok.Data;
 /**
  * sku图片
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
+@ApiModel
 @Data
 @TableName("pms_sku_images")
 public class SkuImages implements Serializable {

@@ -11,8 +11,9 @@ import lombok.Data;
 /**
  * sku销售属性&值
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
+@ApiModel
 @Data
 @TableName("pms_sku_sale_attr_value")
 public class SkuSaleAttrValue implements Serializable {

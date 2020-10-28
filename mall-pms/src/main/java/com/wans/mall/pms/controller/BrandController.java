@@ -1,21 +1,23 @@
 package com.wans.mall.pms.controller;
-import java.util.Arrays;
-import java.util.Map;
+import com.wans.common.utils.PageVo;
+import com.wans.common.utils.QueryCondition;
+import com.wans.common.utils.Resp;
+import com.wans.mall.pms.entity.Brand;
+import com.wans.mall.pms.service.BrandService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import com.wans.mall.pms.entity.Brand;
-import com.wans.mall.pms.service.BrandService;
-import com.wans.common.utils.PageVo;
-import com.wans.common.utils.QueryCondition;
-import com.wans.common.utils.Resp;
+
+import java.util.Arrays;
 
 /**
  * 品牌
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
+@Api(tags = "品牌 管理")
 @RestController
 @RequestMapping("pms/brand")
 public class BrandController {

@@ -16,7 +16,7 @@ import com.wans.mall.pms.service.AttrService;
 /**
  * 商品属性
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 @Service("attrService")
 public class AttrServiceImpl extends ServiceImpl<AttrDao, Attr> implements AttrService {

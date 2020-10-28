@@ -16,7 +16,7 @@ import com.wans.mall.pms.service.SpuInfoDescService;
 /**
  * spu信息介绍
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 @Service("spuInfoDescService")
 public class SpuInfoDescServiceImpl extends ServiceImpl<SpuInfoDescDao, SpuInfoDesc> implements SpuInfoDescService {

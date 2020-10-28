@@ -2,6 +2,7 @@ package com.wans.mall.pms.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
@@ -10,8 +11,9 @@ import java.io.Serializable;
 /**
  * 商品属性
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
+@ApiModel
 @Data
 @TableName("pms_attr")
 public class Attr implements Serializable {

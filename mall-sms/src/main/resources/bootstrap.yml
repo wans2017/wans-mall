@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mall-sms
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.9.214.32:8848
+        file-extension: yml   ## 指定文件后缀
+        namespace: cce9a5a4-5f53-42a8-8d63-84e0585c130e   ## 命名空间id
+        group: dev    ## 分组为开发环境

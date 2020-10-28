@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * sku销售属性&值
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 public interface SkuSaleAttrValueService extends IService<SkuSaleAttrValue> {
 

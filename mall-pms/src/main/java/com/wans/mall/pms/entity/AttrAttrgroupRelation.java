@@ -2,16 +2,18 @@ package com.wans.mall.pms.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.Data;
-
 import java.io.Serializable;
+import java.util.Date;
+import lombok.Data;
 
 /**
  * 属性&属性分组关联
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
+@ApiModel
 @Data
 @TableName("pms_attr_attrgroup_relation")
 public class AttrAttrgroupRelation implements Serializable {

@@ -11,8 +11,9 @@ import lombok.Data;
 /**
  * spu图片
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
+@ApiModel
 @Data
 @TableName("pms_spu_images")
 public class SpuImages implements Serializable {

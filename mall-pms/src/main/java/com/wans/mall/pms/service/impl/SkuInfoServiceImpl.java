@@ -16,7 +16,7 @@ import com.wans.mall.pms.service.SkuInfoService;
 /**
  * sku信息
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 @Service("skuInfoService")
 public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfo> implements SkuInfoService {

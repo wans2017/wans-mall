@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * spu信息
  *
- * Created by wans on 2020-10-22 17:00:14.
+ * Created by wans on 2020-10-27 14:32:42.
  */
 public interface SpuInfoService extends IService<SpuInfo> {
 

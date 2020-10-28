@@ -18,7 +18,7 @@
         <module>mall-oms</module>
         <module>mall-sms</module>
         <module>mall-wms</module>
-        <module>mall-comm-generator</module>
+        <!--<module>mall-comm-generator</module>-->
     </modules>
 
     <!-- 在父项目定义一个参数，子项目可以引用，改一次即可 -->
